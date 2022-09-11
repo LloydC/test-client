@@ -1,0 +1,63 @@
+/* color scheme https://colors.muz.li/palette/124c91/0d3565/911236/660d26/918912
+#124c91
+#0d3565
+#911236
+#660d26
+#918912
+
+*/
+
+.main-navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.5rem;
+    background-color: #124c91;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-navigation_logo h1{
+    margin: 0;
+    font-size: 1.5rem;
+}
+.main-navigation_items {
+    margin: 1.5rem;
+   
+    
+}
+.main-navigation_items ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.main-navigation_items li{
+    margin: 0 1rem;
+}
+
+.main-navigation_items a,
+.main-navigation_items button {
+    text-decoration: none;
+    color: #918912;
+    border: none;
+    font: inherit;
+    background: transparent;
+    cursor: pointer;
+}
+
+.main-navigation_items a:hover,
+.main-navigation_items a:active,
+.main-navigation_items a.active,
+.main-navigation_items button:hover,
+.main-navigation_items button:active
+{
+    color: black;
+    border-radius: 5px;
+}

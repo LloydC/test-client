@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+    display: block;
+    width: 100%;
+}
+
+.form-control label{
+    margin-bottom: 1rem;;
+}
+.form-control{
+    margin-bottom: 1rem;
+}
+
+.form-actions button, .btn {
+    background-color: #124c91;
+    font: inherit;
+    border: 1px solid #124c91;
+    border-radius: 5px;
+    margin: 0 1rem;
+    padding: 0.25rem 1rem;
+    margin-right: 1rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+    color:white;
+    cursor: pointer;
+}
+
+.form-actions button:hover,
+.form-actions button:active,
+.btn:hover,
+.btn:active {
+    background-color: royalblue;
+    border-color: royalblue;
+}
+
+.form-actions button, .cancel {
+  background-color: #660d26;
+}
+
+.form-actions button, .cancel:hover {
+  background-color: #911236;
+}
+
